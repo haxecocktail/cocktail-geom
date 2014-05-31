@@ -1,0 +1,8 @@
+{
+    "name": "cocktail-geom",
+    "url": "https://github.com/haxecocktail/cocktail-geom",
+    "licence": "MIT",
+    "version": "0.0.1",
+    "description": "geometry utils for cocktail",
+    "contributors": ["Yannick Dominguez"]
+}
