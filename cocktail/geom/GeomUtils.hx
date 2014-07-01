@@ -35,7 +35,7 @@ class GeomUtils
 	 * @param	getHorizontalBounds wether to add horizontal bounds
 	 * @param	getVerticalBounds wether to add vertical bounds
 	 */
-	public inline static function addBounds(addedBounds:RectangleVO, bounds:RectangleVO, getHorizontalBounds:Bool = true, getVerticalBounds:Bool = true ):Void
+	public static function addBounds(addedBounds:RectangleVO, bounds:RectangleVO, getHorizontalBounds:Bool = true, getVerticalBounds:Bool = true ):Void
 	{
 		//add horizontal bounds if needed
 		if (getHorizontalBounds == true)
@@ -74,7 +74,7 @@ class GeomUtils
 	 * @param	bounds2 second bounds to intersec
 	 * @param	resultBounds store the intersecting bounds of the 2 bounds
 	 */
-	public inline static function intersectBounds(bounds1:RectangleVO, bounds2:RectangleVO, resultBounds:RectangleVO):Void
+	public static function intersectBounds(bounds1:RectangleVO, bounds2:RectangleVO, resultBounds:RectangleVO):Void
 	{
 
 		
